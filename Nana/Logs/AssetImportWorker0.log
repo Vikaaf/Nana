@@ -15,7 +15,7 @@ C:/Users/vilka/OneDrive/Документы/Игрулька/Nana/Nana
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49694
+49696
 Successfully changed project path to: C:/Users/vilka/OneDrive/Документы/Игрулька/Nana/Nana
 C:/Users/vilka/OneDrive/Документы/Игрулька/Nana/Nana
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/vilka/OneDrive/Документы/Игрулька/Nana/Nana
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2230802558 [EditorId] 2230802558 [Version] 1048832 [Id] WindowsEditor(7,Victoria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3896] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1051947746 [EditorId] 1051947746 [Version] 1048832 [Id] WindowsEditor(7,Victoria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2230802558 [EditorId] 2230802558 [Version] 1048832 [Id] WindowsEditor(7,Victoria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3896] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1051947746 [EditorId] 1051947746 [Version] 1048832 [Id] WindowsEditor(7,Victoria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 10.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003935 seconds.
-- Loaded All Assemblies, in  0.289 seconds
+Registered in 0.007307 seconds.
+- Loaded All Assemblies, in  0.479 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 524ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 906ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (90ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (188ms)
+		SetupLoadedEditorAssemblies (340ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 524ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.525 seconds
-Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 5.62 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.520 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling: 1797ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (323ms)
-		LoadAssemblies (261ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (445ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (520ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (911ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
+		SetupLoadedEditorAssemblies (680ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.8 KB). Loaded Objects now: 4488.
-Memory consumption went from 143.6 MB to 143.4 MB.
-Total: 3.174900 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.116600 ms MarkObjects: 2.615200 ms  DeleteObjects: 0.219300 ms)
+Unloading 70 unused Assets / (244.4 KB). Loaded Objects now: 4488.
+Memory consumption went from 143.8 MB to 143.5 MB.
+Total: 5.780700 ms (FindLiveObjects: 0.756400 ms CreateObjectMapping: 0.308300 ms MarkObjects: 4.389800 ms  DeleteObjects: 0.324200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,161 +180,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 353.935722 seconds.
-  path: Assets/мебель/Диван.png
-  artifactKey: Guid(b4bc16097e7e8da47bf8baca133c3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/Диван.png using Guid(b4bc16097e7e8da47bf8baca133c3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bb79bc5b0a55e5cb4ee02aac319e0b') in 0.092065 seconds
+  Time since last request: 635.778582 seconds.
+  path: Assets/мебель/c26f707007900bfc2f6dd402f3912b33.jpg
+  artifactKey: Guid(a727060c5ce7a7b4ca7fbf713631b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/c26f707007900bfc2f6dd402f3912b33.jpg using Guid(a727060c5ce7a7b4ca7fbf713631b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc4431c608dc310443031a0e6710ca4') in 0.151697 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 21.836260 seconds.
-  path: Assets/мебель/Диван.png
-  artifactKey: Guid(b4bc16097e7e8da47bf8baca133c3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/Диван.png using Guid(b4bc16097e7e8da47bf8baca133c3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfa86236a4247982713428e34810abb') in 0.013484 seconds
+  Time since last request: 13.221032 seconds.
+  path: Assets/мебель/кров.png
+  artifactKey: Guid(b02fdc3ad90a08047b73fd7e2109f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/кров.png using Guid(b02fdc3ad90a08047b73fd7e2109f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc8aa6f66d394656baaf0d016e4e4de') in 0.023535 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 759.442048 seconds.
-  path: Assets/мебель/книги.png
-  artifactKey: Guid(b017d09d518c42047967f18c84d063af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/книги.png using Guid(b017d09d518c42047967f18c84d063af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572d2c3f6244a1ea22658c8b64a067a7') in 0.031223 seconds
+  Time since last request: 216.478697 seconds.
+  path: Assets/мебель/цветок.png
+  artifactKey: Guid(9e6aa3f673c43dd4483e23fd3521cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/цветок.png using Guid(9e6aa3f673c43dd4483e23fd3521cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08fe804d6fd63f306be97b1e341a90c') in 0.035499 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.637227 seconds.
-  path: Assets/мебель/книги.png
-  artifactKey: Guid(b017d09d518c42047967f18c84d063af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/книги.png using Guid(b017d09d518c42047967f18c84d063af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcbef7c7265e8fbba19fbabe8fc87f1') in 0.020581 seconds
+  Time since last request: 27.020770 seconds.
+  path: Assets/мебель/цветок.png
+  artifactKey: Guid(9e6aa3f673c43dd4483e23fd3521cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/цветок.png using Guid(9e6aa3f673c43dd4483e23fd3521cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7668c45d44a52c74ef5e6dc0bba420') in 0.021270 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 529.100579 seconds.
-  path: Assets/мебель/tileset.png
-  artifactKey: Guid(3a5f03c84fb85014e83299df5592c2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/tileset.png using Guid(3a5f03c84fb85014e83299df5592c2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a53f25378ab36e67dda0fa59514cc6') in 0.026122 seconds
+  Time since last request: 109.802585 seconds.
+  path: Assets/мебель/глобус.png
+  artifactKey: Guid(53268678063d88546881b10d84c9497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/глобус.png using Guid(53268678063d88546881b10d84c9497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c20fe73c69e0e9c0b6b8804abeafd01') in 0.026015 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 95.824246 seconds.
-  path: Assets/мебель/розовый пол.png
-  artifactKey: Guid(392c7f831dddb29459a127bd5657340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/розовый пол.png using Guid(392c7f831dddb29459a127bd5657340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2424524bee1c85b01ba6343277146ccf') in 0.015955 seconds
+  Time since last request: 14.427598 seconds.
+  path: Assets/мебель/глобус.png
+  artifactKey: Guid(53268678063d88546881b10d84c9497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/глобус.png using Guid(53268678063d88546881b10d84c9497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afea672e045dde91dcaced668522f12') in 0.020717 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 11.971109 seconds.
-  path: Assets/мебель/розовый пол.png
-  artifactKey: Guid(392c7f831dddb29459a127bd5657340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/розовый пол.png using Guid(392c7f831dddb29459a127bd5657340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d2cb109a7e77914896f1a9831bedb') in 0.013953 seconds
+  Time since last request: 102.837147 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character
+  artifactKey: Guid(1cf2c442575e4c346b06b9a3aca79445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character using Guid(1cf2c442575e4c346b06b9a3aca79445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cc112528f2b6a9139ac222665d1085') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.169138 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character/portrait female.png
+  artifactKey: Guid(157e004b54bd8f74280ae84e19f4ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character/portrait female.png using Guid(157e004b54bd8f74280ae84e19f4ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a46c31488de399ac0f037285ef6584a') in 0.045386 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 215.137457 seconds.
-  path: Assets/мебель/лестница.png
-  artifactKey: Guid(a539dfe08e1f83d479ff32c4c6ca249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/лестница.png using Guid(a539dfe08e1f83d479ff32c4c6ca249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d9ad0f69e2953208d29cfb74801064') in 0.019620 seconds
+  Time since last request: 0.000399 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character/walk and idle.png
+  artifactKey: Guid(d10b6f2c4e7b42d41a53e14435ff8eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character/walk and idle.png using Guid(d10b6f2c4e7b42d41a53e14435ff8eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e965addebdf0877587febe4de90cdb41') in 0.031129 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 11.358555 seconds.
-  path: Assets/мебель/лестница.png
-  artifactKey: Guid(a539dfe08e1f83d479ff32c4c6ca249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/лестница.png using Guid(a539dfe08e1f83d479ff32c4c6ca249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d5a1b2491c127cd1c76f07a16c106') in 0.009871 seconds
+  Time since last request: 37.808536 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character/portrait female.png
+  artifactKey: Guid(157e004b54bd8f74280ae84e19f4ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character/portrait female.png using Guid(157e004b54bd8f74280ae84e19f4ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b8bd6df83f6f79e3797acdbd96338') in 0.012178 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 303.878331 seconds.
-  path: Assets/мебель/Стол.png
-  artifactKey: Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/Стол.png using Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4175a0f0a068ee35635d3534f16310') in 0.015221 seconds
+  Time since last request: 71.868390 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character old/portrait female.png
+  artifactKey: Guid(440302090ba89f44cb47e28bc0364c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character old/portrait female.png using Guid(440302090ba89f44cb47e28bc0364c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b0231ddf4a21ac0d14bef9453cc2e') in 0.021913 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 121.697139 seconds.
-  path: Assets/мебель/на стол.png
-  artifactKey: Guid(90af8e98f377fa948b4600e7a9b6a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/на стол.png using Guid(90af8e98f377fa948b4600e7a9b6a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcedb030382ef376cfaaaaa80bf9c424') in 0.015629 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters/main character old/walk and idle.png
+  artifactKey: Guid(0afe419b4c4da4048b1762f07f04952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters/main character old/walk and idle.png using Guid(0afe419b4c4da4048b1762f07f04952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab36e00ba682740853b9dd189216cf45') in 0.027360 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 100.387116 seconds.
-  path: Assets/мебель/Стол.png
-  artifactKey: Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/Стол.png using Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc75b8152291927571b9694f9776e81f') in 0.014771 seconds
+  Time since last request: 179.872679 seconds.
+  path: Assets/мебель/цветок 2.png
+  artifactKey: Guid(f6ec9cfec3f01cf46aa0a92717743a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/цветок 2.png using Guid(f6ec9cfec3f01cf46aa0a92717743a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7219df7bb5d25d65c66f56ca9baa4aa7') in 0.036186 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 21.070809 seconds.
-  path: Assets/мебель/Стол.png
-  artifactKey: Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/Стол.png using Guid(071001fc4ddfde14ea7fdcdd1f853f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69631ab81323397b0d040b16b9fb7495') in 0.018039 seconds
+  Time since last request: 13.498192 seconds.
+  path: Assets/мебель/цветок 2.png
+  artifactKey: Guid(f6ec9cfec3f01cf46aa0a92717743a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/цветок 2.png using Guid(f6ec9cfec3f01cf46aa0a92717743a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1737ec700a6451f9983c340c0a93653f') in 0.022468 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 31.559259 seconds.
-  path: Assets/мебель/на стол.png
-  artifactKey: Guid(90af8e98f377fa948b4600e7a9b6a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/на стол.png using Guid(90af8e98f377fa948b4600e7a9b6a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f1f7621231890a4183799810b383d6') in 0.011208 seconds
+  Time since last request: 59.954797 seconds.
+  path: Assets/мебель/Tiny Wonder Farm Free/characters
+  artifactKey: Guid(b1f6c49d6b6d4d946bb93bb0fef7b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/мебель/Tiny Wonder Farm Free/characters using Guid(b1f6c49d6b6d4d946bb93bb0fef7b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f058bfb594a78e78375a595981b2e73') in 0.000995 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 156.571119 seconds.
-  path: Assets/мебель/шкаф.png
-  artifactKey: Guid(ad1c2106c7cad884e80a958de3f0228e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/шкаф.png using Guid(ad1c2106c7cad884e80a958de3f0228e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cbe75dcbe873609ce3dc70eeb8ccf5') in 0.015461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.145907 seconds.
-  path: Assets/мебель/шкаф.png
-  artifactKey: Guid(ad1c2106c7cad884e80a958de3f0228e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/шкаф.png using Guid(ad1c2106c7cad884e80a958de3f0228e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1128ce537db0a15fea6a0f22701f2fb1') in 0.014195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 60.410372 seconds.
-  path: Assets/мебель/кровать.png
-  artifactKey: Guid(ba21d0af04e00a04498f2c88710fec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/кровать.png using Guid(ba21d0af04e00a04498f2c88710fec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4051f6b0cec770e0b6e26f5cf7256d44') in 0.017421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 13.297096 seconds.
-  path: Assets/мебель/кровать.png
-  artifactKey: Guid(ba21d0af04e00a04498f2c88710fec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/кровать.png using Guid(ba21d0af04e00a04498f2c88710fec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67fa6b6ce5c72565709ac2956f24a6f') in 0.023507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 316.926774 seconds.
-  path: Assets/мебель/ковер роз.png
-  artifactKey: Guid(8b5d7631f15c4d94fbc236edba9edd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/ковер роз.png using Guid(8b5d7631f15c4d94fbc236edba9edd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80165687c4ff2d58dfcd47ad4aee29ff') in 0.018635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.817730 seconds.
-  path: Assets/мебель/ковер роз.png
-  artifactKey: Guid(8b5d7631f15c4d94fbc236edba9edd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/мебель/ковер роз.png using Guid(8b5d7631f15c4d94fbc236edba9edd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1f471958339e63539f41ef1797fe48') in 0.025529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
